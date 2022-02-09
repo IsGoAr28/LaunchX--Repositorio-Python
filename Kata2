@@ -1,0 +1,20 @@
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro-de-Isael:~ isaelgonzalezarreguin$    python3 -m venv env 
+MacBook-Pro-de-Isael:~ isaelgonzalezarreguin$ source env/bin/activate
+(env) MacBook-Pro-de-Isael:~ isaelgonzalezarreguin$ pip freeze
+(env) MacBook-Pro-de-Isael:~ isaelgonzalezarreguin$ pip install python-dateutil
+Collecting python-dateutil
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, python-dateutil
+Successfully installed python-dateutil-2.8.2 six-1.16.0
+WARNING: You are using pip version 21.2.3; however, version 22.0.3 is available.
+You should consider upgrading via the '/Users/isaelgonzalezarreguin/env/bin/python3 -m pip install --upgrade pip' command.
+(env) MacBook-Pro-de-Isael:~ isaelgonzalezarreguin$ pip freeze
+python-dateutil==2.8.2
+six==1.16.0
+(env) MacBook-Pro-de-Isael:~ isaelgonzalezarreguin$ deactivate
+MacBook-Pro-de-Isael:~ isaelgonzalezarreguin$ 
